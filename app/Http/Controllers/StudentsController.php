@@ -11,9 +11,8 @@ class StudentsController extends Controller
     //
 
     public function index()
-    {
-        $students = Student::all();
-        return view('index', compact('students'));
+    {;
+        return view('index');
     }
 
     
@@ -22,5 +21,11 @@ class StudentsController extends Controller
 
         $students = Student::where('class', $class)->get();
         return view('index', compact('students'));
+    }
+
+    public function getStudents(Request $request)
+    {
+        $students = Student::all();
+        return view('student-list', compact('students'));
     }
 }

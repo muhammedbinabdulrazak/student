@@ -7,6 +7,7 @@ use App\Http\Controllers\StudentsController;
 
 Route::get('/', [StudentsController::class, 'index'])->name('students.index');
 Route::get('students/{class}', [StudentsController::class, 'getStudentByClass'])->name('students.getByClass');
+Route::get('students', [StudentsController::class, 'getStudents'])->name('students.list');
 
 
 
