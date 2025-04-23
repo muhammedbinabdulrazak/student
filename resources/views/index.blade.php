@@ -221,7 +221,7 @@
                     <h5 class="mb-4">Quick Links</h5>
                     <ul class="footer-links">
                         <li><a href="/">Home</a></li>
-                        <li><a href="/students">About</a></li>
+                        <li><a href="/students">About Students</a></li>
                         <li><a href="#programs">Programs</a></li>
                     </ul>
                 </div>

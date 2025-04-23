@@ -16,7 +16,7 @@
                         <a class="nav-link" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/students">About</a>
+                        <a class="nav-link" href="/students">About students</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#programs">Programs</a>
